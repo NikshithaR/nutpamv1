@@ -966,11 +966,12 @@ export default function NutpamPage() {
               </div>
 
               <div className="relative">
+                {/* Updated container alignment to center blocks properly with better spacing */}
                 <div
-                  className={`space-y-3 max-w-md mx-auto lg:mx-0 lg:ml-auto transition-all duration-1000 ${isAnimating ? "animate-bounce" : ""}`}
+                  className={`space-y-3 max-w-lg mx-auto lg:mx-0 lg:mr-8 transition-all duration-1000 ${isAnimating ? "animate-bounce" : ""}`}
                 >
                   {/* First row - NUTPAM or நுட்பம் */}
-                  <div className={`flex justify-center gap-3 ${isAnimating ? "animate-spin" : ""}`}>
+                  <div className={`flex justify-center gap-4 ${isAnimating ? "animate-spin" : ""}`}>
                     {blocks.map((block, index) => (
                       <div
                         key={`${block.letter}-${index}`}
@@ -996,7 +997,7 @@ export default function NutpamPage() {
                             fontWeight: 900,
                             color: "#23242c",
                             background: "#f6f8fc",
-                            margin: "0 5px",
+                            margin: "0",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
@@ -1061,7 +1062,7 @@ export default function NutpamPage() {
                   </div>
 
                   {/* Second row - decorative keys */}
-                  <div className={`flex justify-center gap-3 opacity-60 ${isAnimating ? "animate-pulse" : ""}`}>
+                  <div className={`flex justify-center gap-4 opacity-60 ${isAnimating ? "animate-pulse" : ""}`}>
                     {[
                       { letter: "2", color: "from-slate-600 via-slate-700 to-slate-800" },
                       { letter: "0", color: "from-blue-600 via-blue-700 to-blue-800" },
