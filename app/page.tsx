@@ -376,7 +376,6 @@ export default function NutpamPage() {
                   <SelectContent>
                     <SelectItem value="2">2</SelectItem>
                     <SelectItem value="3">3</SelectItem>
-                    <SelectItem value="4">4</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
