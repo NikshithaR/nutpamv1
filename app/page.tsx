@@ -705,76 +705,59 @@ export default function NutpamPage() {
               </h2>
               <p className="text-lg text-muted-foreground">
                 {language === "en"
-                  ? "1 Day Workshop + Hackathon • September 22nd, 2025"
-                  : "1 நாள் பட்டறை + ஹேக்கத்தான் • செப்டம்பர் 22, 2025"}
+                  ? "The event is a 1 day workshop + hackathon held on 22nd September"
+                  : "நிகழ்வு செப்டம்பர் 22 அன்று நடைபெறும் 1 நாள் பட்டறை + ஹேக்கத்தான்"}
               </p>
             </div>
             <div className="space-y-8">
               {[
                 {
                   time: "09:00 AM",
-                  title: language === "en" ? "Registration & Welcome" : "பதிவு மற்றும் வரவேற்பு",
+                  title: language === "en" ? "NoCodeML workshop" : "NoCodeML பட்டறை",
                   description:
                     language === "en"
-                      ? "Team check-in, breakfast, and opening ceremony"
-                      : "குழு சரிபார்ப்பு, காலை உணவு மற்றும் தொடக்க விழா",
+                      ? "Learn the fundamentals of NoCodeML and its applications"
+                      : "NoCodeML இன் அடிப்படைகள் மற்றும் அதன் பயன்பாடுகளைக் கற்றுக்கொள்ளுங்கள்",
                 },
                 {
-                  time: "10:00 AM",
-                  title: language === "en" ? "NoCodeML Workshop" : "NoCodeML பட்டறை",
+                  time: "11:00 AM",
+                  title: language === "en" ? "Disclosing Problem statements" : "பிரச்சனை அறிக்கைகளை வெளியிடுதல்",
                   description:
                     language === "en"
-                      ? "Hands-on workshop on No-Code Machine Learning tools"
-                      : "நோ-கோட் மெஷின் லர்னிங் கருவிகளில் நடைமுறை பட்டறை",
+                      ? "Discover the exciting challenges you'll be solving"
+                      : "நீங்கள் தீர்க்கும் சுவாரஸ்யமான சவால்களைக் கண்டறியுங்கள்",
                 },
                 {
                   time: "12:00 PM",
-                  title: language === "en" ? "Problem Statement Release" : "பிரச்சனை அறிக்கை வெளியீடு",
+                  title: language === "en" ? "Hackathon starts" : "ஹேக்கத்தான் தொடக்கம்",
                   description:
                     language === "en"
-                      ? "Official announcement of hackathon challenges"
-                      : "ஹேக்கத்தான் சவால்களின் அதிகாரப்பூர்வ அறிவிப்பு",
-                },
-                {
-                  time: "01:00 PM",
-                  title: language === "en" ? "Lunch Break" : "மதிய உணவு இடைவேளை",
-                  description: language === "en" ? "Networking lunch" : "நெட்வொர்க்கிங் மதிய உணவு",
+                      ? "Start building your innovative solutions with your team"
+                      : "உங்கள் குழுவுடன் புதுமையான தீர்வுகளை உருவாக்கத் தொடங்குங்கள்",
                 },
                 {
                   time: "02:00 PM",
-                  title: language === "en" ? "Hackathon Begins" : "ஹேக்கத்தான் தொடக்கம்",
-                  description:
-                    language === "en" ? "Teams start working on solutions" : "குழுக்கள் தீர்வுகளில் வேலை தொடங்குகின்றன",
-                },
-                {
-                  time: "06:00 PM",
-                  title: language === "en" ? "Dinner Break" : "இரவு உணவு இடைவேளை",
-                  description: language === "en" ? "Dinner and team discussions" : "இரவு உணவு மற்றும் குழு விவாதங்கள்",
-                },
-                {
-                  time: "07:00 PM",
-                  title: language === "en" ? "Final Sprint" : "இறுதி முயற்சி",
+                  title: language === "en" ? "Level 1 Review" : "நிலை 1 மதிப்பாய்வு",
                   description:
                     language === "en"
-                      ? "Last hours of development and testing"
-                      : "வளர்ச்சி மற்றும் சோதனையின் கடைசி மணிநேரங்கள்",
+                      ? "Present your progress and get feedback from mentors"
+                      : "உங்கள் முன்னேற்றத்தை வழங்கி வழிகாட்டிகளிடமிருந்து கருத்துக்களைப் பெறுங்கள்",
                 },
                 {
-                  time: "11:00 PM",
-                  title: language === "en" ? "Submission Deadline" : "சமர்ப்பிப்பு காலக்கெடு",
-                  description: language === "en" ? "Final project submissions" : "இறுதி திட்ட சமர்ப்பிப்புகள்",
-                },
-                {
-                  time: "11:30 PM",
-                  title: language === "en" ? "Presentations & Judging" : "விளக்கக்காட்சிகள் மற்றும் நடுவர்",
+                  time: "04:00 PM",
+                  title: language === "en" ? "Final Review" : "இறுதி மதிப்பாய்வு",
                   description:
-                    language === "en" ? "Team presentations and evaluation" : "குழு விளக்கக்காட்சிகள் மற்றும் மதிப்பீடு",
+                    language === "en"
+                      ? "Showcase your completed solutions to the judging panel"
+                      : "உங்கள் முழுமையான தீர்வுகளை நடுவர் குழுவிடம் காட்டுங்கள்",
                 },
                 {
-                  time: "01:00 AM",
-                  title: language === "en" ? "Awards & Closing" : "விருதுகள் மற்றும் நிறைவு",
+                  time: "05:30 PM",
+                  title: language === "en" ? "Winners Announcement" : "வெற்றியாளர்கள் அறிவிப்பு",
                   description:
-                    language === "en" ? "Prize distribution and closing ceremony" : "பரிசு விநியோகம் மற்றும் நிறைவு விழா",
+                    language === "en"
+                      ? "Celebrate the most innovative solutions and award ceremony"
+                      : "மிகவும் புதுமையான தீர்வுகளைக் கொண்டாடி விருது வழங்கும் விழா",
                 },
               ].map((event, index) => (
                 <div key={index} className="flex gap-6 items-start">

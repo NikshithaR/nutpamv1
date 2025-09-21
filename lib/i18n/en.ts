@@ -23,27 +23,27 @@ export const en = {
   },
   timeline: {
     title: "Event Timeline",
-    subtitle: "September 22, 2025 - 1 Day Workshop + Hackathon",
+    subtitle: "The event is a 1 day workshop + hackathon held on 22nd September",
     events: [
       {
         time: "09:00",
-        title: "NoCodeML Workshop",
-        description: "Learn the fundamentals of NoCodeML and its applications in modern development",
+        title: "NoCodeML workshop",
+        description: "Learn the fundamentals of NoCodeML and its applications",
       },
       {
         time: "11:00",
-        title: "Disclosing Problem Statements",
-        description: "Discover the real-world challenges you'll be solving during the hackathon",
+        title: "Disclosing Problem statements",
+        description: "Discover the exciting challenges you'll be solving",
       },
       {
         time: "12:00",
-        title: "Hackathon Starts",
-        description: "Begin building your innovative solutions with your team",
+        title: "Hackathon starts",
+        description: "Start building your innovative solutions with your team",
       },
       {
         time: "14:00",
         title: "Level 1 Review",
-        description: "Present your initial progress and get feedback from mentors",
+        description: "Present your progress and get feedback from mentors",
       },
       {
         time: "16:00",
@@ -53,7 +53,7 @@ export const en = {
       {
         time: "17:30",
         title: "Winners Announcement",
-        description: "Celebrate the most innovative and impactful solutions",
+        description: "Celebrate the most innovative solutions and award ceremony",
       },
     ],
   },

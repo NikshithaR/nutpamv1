@@ -21,27 +21,27 @@
   },
   "timeline": {
     "title": "Event Timeline",
-    "subtitle": "September 22, 2025",
+    "subtitle": "The event is a 1 day workshop + hackathon held on 22nd September",
     "events": [
       {
         "time": "09:00",
-        "title": "NoCodeML Workshop",
-        "description": "Learn the fundamentals of NoCodeML and its applications in real-world scenarios"
+        "title": "NoCodeML workshop",
+        "description": "Learn the fundamentals of NoCodeML and its applications"
       },
       {
         "time": "11:00",
-        "title": "Problem Statements Disclosure",
-        "description": "Discover the exciting challenges you'll be solving during the hackathon"
+        "title": "Disclosing Problem statements",
+        "description": "Discover the exciting challenges you'll be solving"
       },
       {
         "time": "12:00",
-        "title": "Hackathon Begins",
+        "title": "Hackathon starts",
         "description": "Start building your innovative solutions with your team"
       },
       {
         "time": "14:00",
         "title": "Level 1 Review",
-        "description": "Present your progress and get valuable feedback from mentors"
+        "description": "Present your progress and get feedback from mentors"
       },
       {
         "time": "16:00",
